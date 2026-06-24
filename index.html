@@ -878,7 +878,7 @@
         /* ═══ GitHub Auto-Fetch ═══ */
         // 이 URL을 GitHub raw 파일 URL로 교체하면 자동 로드됨
         // 예: 'https://raw.githubusercontent.com/[유저명]/[repo명]/main/promotion_calendar.xlsx'
-        const GITHUB_XLSX_URL = '';  // ← GitHub 배포 시 여기에 URL 입력
+        const GITHUB_XLSX_URL = 'https://raw.githubusercontent.com/wanderingnana/sn-korea-promo/main/promotion_calendar.xlsx';  // ← GitHub 배포 시 여기에 URL 입력
 
         async function autoLoadFromGitHub() {
             if (!GITHUB_XLSX_URL) return;  // URL 없으면 수동 업로드 모드
